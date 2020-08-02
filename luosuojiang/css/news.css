@@ -1,0 +1,138 @@
+/* 选项卡标题开始 */
+
+.news-box{
+    width: 1519px;
+    height: 200px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
+
+.news-tabs{
+    width: 1190px;
+    height: 31px;
+    padding: 0 45px 40px 45px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaa;
+}
+
+.news-tabs-list{
+    height: 30px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.news-tabs-item{
+    height: 12px;
+    width: 58px;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.news-tabs-item:hover{
+    background: #003c84;
+    color: #fff;
+}
+
+
+/* 详细页开始  */
+.news-details{
+    width: 1519px;
+    /* height: 1733px; */
+    height: auto;
+    background: #f9f9f9;
+    margin: 0 auto; 
+    padding: 40px 0 100px 0;
+    border-top: 1px solid #ccc;
+    display: none;
+}
+
+.news-details-box{
+    width: 1190px;
+    /* height: 1728px; */
+    height: auto;
+
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.news-details-item-box{
+    width: 1177px;
+    height: 165px;
+    position: relative;
+}
+.news-details-item{
+    position: absolute;
+    bottom: 0;
+    width: 1177px;
+    height: 0;
+    overflow: hidden;
+    padding: 0 5px 2px 5px;
+    margin-bottom: 2px;
+    /* background: red; */
+    border-bottom: 1px solid rgba(226,226,226,1);
+    transition: all 1s ease;
+}
+
+.news-details-left{
+    height: 165px;
+    overflow: hidden;
+    width: 300px;
+    padding-right: 100px;
+    vertical-align: middle;
+    /* background: pink; */
+    margin-bottom: 2px;
+    padding-top: 2px;
+    float: left;
+}
+
+.news-details-right{
+    width: 772px;
+    height: 165px;
+    padding-right: 5px;  
+    float: left; 
+}
+
+.news-details-title{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: #666666;
+    line-height: 16px;
+    vertical-align: top;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 16px;
+}
+.news-details-line{
+    width: 0;
+    border-bottom: 1px solid #666;
+    transition: all 1s ease;
+
+}
+.news-details-date{
+    padding-top: 3px;
+    color: #bcbcbc;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+.news-details-bottom{
+    color: #898989;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    line-height: 25px;
+    padding-top: 3px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+
+/* 详细页结束 */
+
