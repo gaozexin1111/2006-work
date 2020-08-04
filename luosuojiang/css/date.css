@@ -1,0 +1,57 @@
+.date-title-box{
+    width: 1429px;
+    height: 69px;
+    
+    /* background: red; */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.date-title-top{
+    width: 416px;
+    height: 36px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 26px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.date-title-bottom{
+    width: 416px;
+    height: 16px;
+    margin: 0 auto;
+    color: #bababa;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.date-table{
+    width: 1387px;
+    height: 2614px;
+    position: relative;
+    line-height: 1.5em;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 0 20px 1px 20px;
+    border-radius: 0px;
+    border: 1px solid rgba(237,237,237,1);
+    
+    color: rgb(51, 51, 51);
+}
+
+.back-index{
+    width: 1352px;
+    height: 16px;
+    padding: 11px 16px;
+    border: 1px solid #ebebeb;
+    margin: 0 auto;
+    color: #666;
+    background: #ebebeb;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}

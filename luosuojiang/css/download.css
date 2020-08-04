@@ -1,0 +1,100 @@
+.service-img-box{
+    width: 1519px;
+    height: 356px;
+    margin: 0 auto;
+}
+
+.service-img{
+    width: 1519px;
+    height: 356px;
+}
+
+/* 下载索引开始 */
+.download-index{
+    width: 1190px;
+    height: 105px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 45px;
+    border-bottom: 2px solid #f4f4f4; 
+}
+
+.download-index-all{
+    width: 1189px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+       
+}
+.download-index-one{
+    width: 66px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    font-size: 14px;
+    color: #333;
+    background: #f4f4f4;
+    float: left;
+}
+
+.download-index-two{
+    width: 56px;
+    height: 32px;
+    border: 1px solid #f4f4f4;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    float: left;
+    line-height: 32px;
+    margin-left: 30px;
+}
+
+.download-index-three{
+    height: 35px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    float: left;
+    line-height: 35px;
+    margin-left: 30px;
+}
+
+/* 下载索引结束 */
+/* 下载内容开始 */
+.download-context-box{
+    width: 1170px;
+    height: 749px;
+    margin: 0 auto;
+    padding: 10px 10px 4px 10px;
+    margin-top: 40px;
+}
+
+.download-item-box{
+    width: 1157px;
+    height: 106px;
+    padding: 0px 5px 20px 5px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.download-item-img{
+    width: 150px;
+    height: 92px;
+}
+
+.download-item-title{
+    color: #333333;
+    line-height: 14px;
+    height: 14px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-left: 10px
+}
+
+.download-item-style{
+    color: #bababa;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 10px
+}
+
+/* 下载内容结束 */
