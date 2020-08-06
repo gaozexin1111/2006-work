@@ -1,0 +1,519 @@
+html{
+    /* font-size: 26.666667vw; */
+    font-size: 13.333333vw;
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 1977706 */
+    src: url('https://at.alicdn.com/t/font_1977706_62vsyt9p2xc.eot');
+    src: url('https://at.alicdn.com/t/font_1977706_62vsyt9p2xc.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1977706_62vsyt9p2xc.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1977706_62vsyt9p2xc.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1977706_62vsyt9p2xc.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1977706_62vsyt9p2xc.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.002rem;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 头部开始 */
+.header{
+    /* width: 3.55rem;
+    height: 0.67rem;
+    background: red;
+    padding: 0 0.1rem;
+    margin: 0 auto; */
+    width: 7.10rem;
+    height: 1.34rem;
+    /* background: red; */
+    padding: 0 0.2rem;
+    margin: 0 auto;
+}
+
+.header-box{
+    /* width: 3.55rem;
+    height: 0.47rem;
+    color: #003c84;
+    font-size: 0.16rem;
+    margin: 0 auto;
+    padding: 0.1rem 0;
+    background: pink; */
+    width: 7.10rem;
+    height: 0.94rem;
+    color: #003c84;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    padding: 0.2rem 0;
+    /* background: pink; */
+}
+
+.header-top{
+    /* width: 2.16rem;
+    height: 0.26rem;
+    color: #11228A;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.26rem;
+    margin: 0 auto; */
+    width: 5.32rem;
+    height: 0.52rem;
+    color: #11228A;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 0.52rem;
+    margin: 0 auto;
+}
+
+.header-bottom{
+    /* width: 2.16rem;
+    height: 0.21rem;
+    color: #4ca6dd;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.21rem;
+    margin: 0 auto;
+    letter-spacing: -0.01rem; */
+    width: 5.32rem;
+    height: 0.42rem;
+    color: #4ca6dd;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.42rem;
+    margin: 0 auto;
+    letter-spacing: -0.02rem;
+}
+
+/* 头部结束 */
+
+/* 轮播图开始 */
+.wheel{
+    width: 7.5rem;
+    height: 3.09rem;
+    margin: 0 auto;
+}
+.wheel-box{
+    width: 7.5rem;
+    height: 3.09rem;
+    position: relative;
+}
+
+.wheel-item{
+    width: 7.5rem;
+    height: 3.09rem;
+    position: relative;
+}
+
+.wheel-item-img{
+    width: 7.5rem;
+    height: 3.09rem;
+}
+.wheel-item-title{
+    width: 7.1rem;
+    height: 0.34rem;
+    padding: 0.2rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    line-height: 0.34rem;
+    text-align: left;
+    background: rgba(36,74,136,0.8);
+    color: #fff;
+}
+.wheel-btns-left{
+    width: 0.6rem;
+    height: 0.6rem;
+    font-size: 0.6rem;
+    color: #fff;
+    background: #000;
+    opacity: 0.5;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.wheel-btns-right{
+    width: 0.6rem;
+    height: 0.6rem;
+    font-size: 0.6rem;
+    color: #fff;
+    background: #000;
+    opacity: 0.5;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+/* 轮播图结束 */
+
+/* 论坛动态开始 */
+/* 标题 */
+.title{
+    width: 7.5rem;
+    height: 2.58rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.title-box{
+    width: 6.9rem;
+    height: 1.38rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    padding: 0.4rem 0;
+    
+}
+.title-line-left{
+    width: 12.2rem;
+    border-bottom: 0.02rem solid #e2e2e2;
+    overflow: hidden;
+    position: absolute;
+    
+    right: 100%;
+    top: 50%;
+    margin-right: 0.4rem;
+}
+.title-line-right{
+    width: 12.2rem;
+    border-bottom: 0.02rem solid #e2e2e2;
+    overflow: hidden;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-left: 0.4rem;
+}
+.title-content{
+    width: 6.9rem;
+    height: 1.38rem;
+}
+.title-content-box{
+    width: 1.28rem;
+    height: 1.38rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title-content-top{
+    width: 1.28rem;
+    height: 0.46rem;
+    margin: 0 auto;
+    margin-bottom: 0.30rem;
+    color: #333;
+    font-size: 0.32rem;
+    font-weight: 400;
+    line-height: 0.46rem;
+    text-align: center;
+}
+
+.title-content-bottom{
+    width: 1.28rem;
+    height: 0.32rem;
+    margin: 0 auto;
+    margin-bottom: 0.30rem;
+    color: #bababa;
+    font-size: 0.24rem;
+    line-height: 0.32rem;
+    text-align: center;
+}
+/* 内容 */
+.news-content{
+    width: 6.9rem;
+    height: 12.05rem;
+    /* background: red; */
+    padding: 0 0.3rem 0.4rem 0.3rem;
+    margin: 0 auto;
+
+}
+
+.news-content-box{
+    width: 6.9rem;
+    height: 12.05rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.news-content-top{
+    width: 6.1rem;
+    height: 4.677rem;
+    margin: 0 auto;
+    padding: 0.4rem;
+    background: #f6f6f6;
+    
+}
+
+.news-content-img-box{
+    width: 6.1rem;
+    height: 3.09rem;
+    margin: 0 auto;
+}
+.news-content-img{
+    width: 6.1rem;
+    height: 3.09rem;
+}
+
+.news-summary{
+    width: 6.1rem;
+    height: 1.18rem;
+    padding-top: 0.4rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.news-summary-left{
+    width: 1.5rem;
+    height: 1.1rem;
+    float: left;
+}
+
+.news-summary-left-top{
+    width: 0.84rem;
+    height: 0.48rem;
+    color: #878787;
+    font-size: 0.36rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.02rem solid #878787;
+    margin-bottom: 0.1rem;
+}
+
+.news-summary-left-bottom{
+    width: 1.5;
+    height: 0.4;
+    color: #878787;
+    font-size: 0.3rem;
+}
+
+.news-summary-right{
+    width: 4.6rem;
+    height: 0.98rem;
+    float: left;
+}
+.news-summary-right-top{
+    width: 4.6rem;
+    height: 0.42rem;
+    color: #898989;
+    font-size: 0.32rem;
+    font-family: 微软雅黑;
+    overflow: hidden;
+    line-height: 0.42rem
+}
+
+.news-summary-right-bottom{
+    width: 4.6rem;
+    height: 0.56rem;
+    color: #666666;
+    font-size: 0.24rem;
+    word-break: break-all;
+    font-family: 微软雅黑;
+    line-height: 0.56rem;
+}
+
+.news-summary-box{
+    width: 6.1rem;
+    height: 1.42rem;
+    padding: 0.4rem;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+    background: #f6f6f6;
+}
+
+/* 显示更多 */
+.news-more-box{
+    width: 7.35rem;
+    height: 2.94rem;
+    margin: 0 auto;
+}
+.more{
+    width: 6.9rem;
+    height: 0.74rem;
+    padding: 0.2rem 0 0.4rem 0;
+    margin: 0 auto;
+}
+
+.more-box{
+    width: 1.12rem;
+    height: 0.38rem;
+    margin: 0 auto;
+    padding: 0.16rem 0.8rem;
+    border: 0.02rem solid #d1d1d1;
+    font-size: 0.28rem;
+    color: #bcbcbc;
+    font-family: 微软雅黑;
+    line-height: 0.38rem;
+    text-align: center;
+    position: relative;
+}
+
+.more-icon{
+    position: absolute;
+    top: 25%;
+    right: 0.2rem;
+    float: left;
+}
+
+/* 论坛动态结束 */
+
+
+/* 论坛嘉宾开始 */
+.guests{
+    width: 7.5rem;
+    height: 25.44rem;
+    background-image: url(../imgs/guests-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: rgba(17,34,138,0.7); */
+    overflow: hidden;
+}
+.guests-bg{
+    width: 7.5rem;
+    height: 25.44rem;
+    background: rgba(17,34,138,0.7);
+    
+}
+
+.guests-box{
+    width: 6.9rem;
+    height: 24.64rem;
+    padding: 0.4rem 0.3rem 0 0.3rem;
+}
+
+/* 嘉宾介绍 */
+.guests-introduce-box{
+    width: 6.9rem;
+    height: 21.32rem;
+    /* background: pink; */
+    margin: 0 auto;
+}
+
+.guetss-item-box{
+    width: 2.95rem;
+    height: 4.81rem;
+    padding: 0.2rem;
+    margin: 0.1rem 0.1rem 0.1rem 0;
+    float: left;
+}
+.guests-item-img-box{
+    width: 2.95rem;
+    height: 2.95rem;
+    margin: 0 auto;
+}
+
+.guests-item-img{
+    width: 2.95rem;
+    height: 2.95rem;
+}
+
+.guests-item-content-box{
+    width: 2.85rem;
+    height: 1.76rem;
+    padding-right: 0.1rem;
+}
+.guests-item-content-top{
+    width: 2.85rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    color: #fff;
+    font-size: 0.28rem;
+    margin-bottom: 0.1rem;
+}
+
+.guests-item-content-bottom{
+    width: 2.85rem;
+    height: 1.28rem;
+    color: #bababa;
+    font-size: 0.24rem;
+    margin-bottom: 0.1rem;
+}
+
+/* 论坛嘉宾结束 */
+
+/* 联系我们开始 */
+.contact-box{
+    width: 6.9rem;
+    height: 5.14rem;
+    padding: 0 0.3rem;
+    background: #f4f4f4;
+    margin: 0 auto;
+}
+
+.contact-font-style-one{
+    width: 6.9rem;
+    height: 0.5rem;
+    padding-top: 0.4rem;
+    color: #333;
+    font-size: 0.28rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.02rem;
+}
+.contact-font-style-two{
+    width: 6.9rem;
+    height: 0.48rem;
+    color: #696969;
+    line-height: 0.48rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.02rem;
+}
+
+/* 联系我们结束 */
+/* 底部开始 */
+.footer{
+    width: 7.1rem;
+    height: 0.6rem;
+    padding: 0.2rem 0;
+    border-top: 0.02rem solid #e8e8e8;
+    color: #666;
+}
+.footer-box{
+    width: 7.5rem;
+    height: 0.32rem;
+    color: rgb(71, 71, 71);
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+
+/* 底部结束 */
+
+/* 固定导航栏开始 */
+.banner{
+    width: 0.3rem;
+    height: 0.28rem;
+    padding: 0.28rem 0.3rem;
+    border: 0.02rem solid #5eb9e2;
+    position: fixed;
+    top: 0.2rem;
+    right: 0.2rem;
+    background: rgb(94, 185, 226);
+    color: #fff;
+}
+
+
+/* 固定导航栏结束 */
+
