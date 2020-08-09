@@ -1,0 +1,93 @@
+.message-title{
+    width: 7.5rem;
+    height: 0.9rem;
+    background: #f9f9f9;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+    border-bottom: 0.02rem solid #e0e0e0;
+    position: relative;
+}
+
+.message-menu{
+    width: 6.86rem;
+    height: 0.3rem;
+    border: 0.02rem solid #6db6e3;
+    background: rgb(109, 182, 227);
+    color: #fff;
+    margin: 0 auto;
+    
+    padding: 0.28rem 0;
+    position: relative;    
+    line-height: 0.3rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.message-menu-icon{
+    position: absolute;
+    width: 0.19rem;
+    height: 0.3rem;
+    top: 40%;
+    right: 0.1rem;
+}
+
+.message-content{
+    width: 7.5rem;
+    height: 22.88rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.message-content-box{
+    width: 6.9rem;
+    height: 20.20rem;
+    margin: 0 auto;
+    
+}
+.message-item{
+    width: 3.3rem;
+    height: 3.54rem;
+    padding: 0.24rem 0;
+    margin-right: 0.15rem;
+    float: left;
+    border-bottom: 0.02rem solid rgb(234, 234, 234);
+}
+
+.message-item-img{
+    width: 3rem;
+    height: 1.8rem;
+    margin: 0 auto;
+}
+
+.message-item-img img{
+    width: 3rem;
+    height: 1.8rem;
+}
+.message-item-title{
+    width: 3.2rem;
+    padding-right: 0.1rem;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+    color: #000;
+    font-size: 0.3rem
+}
+
+.message-item-date{
+    width: 3.2rem;
+    height: 0.32rem;
+    color: #bcbcbc;
+    font-size: 0.24rem;
+    line-height: 0.32rem;
+}
+
+.more-long{
+    width: 6.86rem;
+    height: 0.3rem;
+    padding: 0.12rem 0;
+    border: 0.02rem solid #595959;
+    color: #595959;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+

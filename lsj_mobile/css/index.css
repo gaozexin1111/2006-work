@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    width: 100%;
+    width: 7.5rem;
     padding: 0;
     margin: 0;
 }
@@ -47,7 +47,7 @@ a{
     height: 1.34rem;
     /* background: red; */
     padding: 0 0.2rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .header-box{
@@ -496,6 +496,7 @@ a{
     color: rgb(71, 71, 71);
     font-size: 0.24rem;
     text-align: center;
+    letter-spacing: -0.01rem;
 }
 
 
@@ -513,7 +514,73 @@ a{
     background: rgb(94, 185, 226);
     color: #fff;
 }
-
-
 /* 固定导航栏结束 */
+
+/* 导航栏页面开始 */
+.banner-page{
+    width: 0;
+    height: 12.24rem;
+    padding-top: 1.1rem;
+    margin: 0 auto;
+    position: fixed;
+    transition: all 0.5s ease;
+    background: #5eb9e2;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.false-box{
+    width: 0.22rem;
+    height: 0.28rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    color: #fff;
+    padding: 0.28rem 0.3rem;
+    font-size: 0.32rem;
+}
+
+.banner-item{
+    width: 7.5rem;
+    height: 0.34rem;
+    padding: 0.2rem 0;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.34rem;
+    position: relative;
+}
+.banner-icon{
+    width: 0.12rem;
+    height: 0.18rem;
+    position: absolute;
+    right: 0.2rem;
+}
+.date-page{
+    width: 0;
+    height: 12.24rem;
+    padding-top: 1.1rem;
+    margin: 0 auto;
+    position: fixed;
+    transition: all 0.5s ease;
+    background: #5eb9e2;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+.special-page{
+    width: 0;
+    height: 12.24rem;
+    padding-top: 1.1rem;
+    margin: 0 auto;
+    position: fixed;
+    transition: all 0.5s ease;
+    background: #5eb9e2;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+/* 导航栏页面结束 */
 
