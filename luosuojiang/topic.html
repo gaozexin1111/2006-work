@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>罗梭江科学教育论坛</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/topic.css">
     <script src="js/jquery3.5.1.js"></script>
     <script src="js/aniMath.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/topic.js"></script>
 </head>
 <body>
     <!-- 头部开始 -->
@@ -150,141 +151,89 @@
         </div>
     </div>
     <!-- 头部结束 -->
-    <!-- 轮播图开始 -->
-    <div class="wheel-box">
-        <div class="wheel-item">
-            <img src="imgs/wheel-1.jpg" alt="" class="wheel-item-img">
-            <div class="wheel-item-title">《第四届罗梭江科学教育论坛论文集》在线发布</div>
-            
-        </div>
-        <div class="wheel-item" style="display: none;">
-            <img src="imgs/wheel-2.jpg" alt="" class="wheel-item-img">
-            <div class="wheel-item-title">第四届罗梭江科学教育论坛闭幕 发布五项倡议</div>
-        </div>
-
-        <div class="btns-left iconfont">&#xe659;</div>
-        <div class="btns-right iconfont">&#xe65b;</div>
+    <!-- 展示图片轮播开始 -->
+    <div class="topic-wheel-top">
+        <ul class="topic-wheel-top-box">
+            <li class="topic-wheel-top-item">
+                <img src="imgs/topic/topic-top-1.jpg" alt="">
+            </li>
+            <li class="topic-wheel-top-item" style="display: none;">
+                <img src="imgs/topic/topic-top-2.jpg" alt="">
+            </li>
+            <li class="topic-wheel-top-item" style="display: none;">
+                <img src="imgs/topic/topic-top-3.jpg" alt="">
+            </li>
+            <li class="topic-wheel-top-item" style="display: none;">
+                <img src="imgs/topic/topic-top-4.jpg" alt="">
+            </li>
+        </ul>
     </div>
-    <!-- 轮播图结束 -->
-
-
-    <!-- 论坛动态开始 -->
-    <div class="container">
-        <div class="line"></div>
-        <div class="container-title">
-            <div class="container-cn">论坛动态</div>
-            <div class="container-en">news</div>
-        </div>
-        <div class="line-right" ></div>
-    </div>
-
-    <div class="dynamic">
-        <div class="dynamic-left">
-            
-            <div class="dynamic-left-mask"></div>
-               
-            
-            <div class="dynamic-left-box">
-                <div>  
-                    <a href="">
-                        <img src="imgs/container-1.png" alt="" class="dynamic-img">
-                    </a>
+    <!-- 展示图片轮播结束 -->
+    <!-- 论坛通知开始 -->
+    <div class="topic-title">
+        <div class="topic-title-box">
+            <div class="topic-title-font">
+                <div class="topic-title-font-top">
+                    <span><strong>论坛通知</strong></span>
                 </div>
-                <div class="dynamic-content">
-                    <div class="dynamic-content-left">
-                        <div class="top"><span>2020</span></div>
-                        <div class="bottom"><span>03-20</span></div>
-                    </div>
-                    <div class="dynamic-content-right">
-                        <a href="">
-                            <div class="top">《第四届罗梭江科学教育论坛论文集》在线发布</div>
-                        </a>
-                        <div class="bottom">
-                            <span>论坛微信小程序同步更新发布。</span>
+                <div class="topic-title-font-bottom">
+                    <span>Notification</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topic-noti">
+        <div class="topic-noti-box">
+            <div class="topic-noti-img">
+                <img src="imgs/topic/noti-1.jpg" alt="">
+            </div>
+            <div class="topic-noti-middle">
+                <div class="topic-noti-middle-top">
+                    <span>&ensp;&ensp; &ensp;为加强社会各界在科学教育、环境教育研究及实践领域的交流与合作，促进我国科学教育事业的发展，2016年至今，“罗梭江科学教育论坛”在中国科学院西双版纳热带植物园成功举办了三届。为进一步增进认知、扩大共识，中国科学院科学传播局、中国科学技术协会科普部、中国青年报社、中国植物园联盟定于2019年7月22-25日在中国科学院西双版纳热带植物园举办“第四届罗梭江科学教育论坛”。</span>
+                </div>
+                <div class="topic-noti-middle-bottom">
+                    <span>&ensp;报到时间：2019年7月22日（全天）      </span>
+                </div>
+                <div class="topic-noti-middle-bottom">
+                    <span>&ensp;论坛时间：2019年7月23－24日      </span>
+                </div>
+                <div class="topic-noti-middle-bottom">
+                    <span>&ensp;离会时间：2019年7月25日。</span>
+                </div>
+
+            </div>
+            <div class="topic-noti-right">
+                <div class="topic-noti-right-item">
+                    <span><strong>第一轮通知</strong></span>
+                </div>
+                <div class="topic-noti-right-item">
+                    <span><strong>第二轮通知</strong></span>
+                </div>
+                <div class="topic-noti-right-item">
+                    <span><strong>第三轮通知</strong></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 论坛通知结束 -->
+    <!--论坛嘉宾开始  -->
+    <div class="guests-box-one">
+        <div class="guests-box-two">
+            <div class="topic-title" style="margin-top: 0; margin-bottom: 20px;">
+                <div class="topic-title-box"> 
+                    <div class="topic-title-font" style="background: transparent;margin-top: 0;">
+                        <div class="topic-title-font-top" style="color: #fff;">
+                            <span><strong>论坛嘉宾</strong></span>
+                        </div>
+                        <div class="topic-title-font-bottom">
+                            <span>guests</span>
                         </div>
                     </div>
                 </div>
-
-                
-            
-            </div>            
-        </div>
-
-        <div class="dynamic-right-box">
-            <div class="dynamic-right-item">
-                <div class="dynamic-content-left">
-                    <div class="top"><span>2019</span></div>
-                    <div class="bottom"><span>07-26</span></div>
-                </div>
-                <div class="dynamic-content-right">
-                    <a href="">
-                        <div class="top">中国科学报：保护研究 不止需要科学家</div>
-                    </a>
-                    <div class="bottom">
-                        <span>“公众科学与生物多样性保护”议题中的案例</span>
-                    </div>
-                </div>
             </div>
-
-            <div class="dynamic-right-item">
-                <div class="dynamic-content-left">
-                    <div class="top"><span>2019</span></div>
-                    <div class="bottom"><span>7-25</span></div>
-                </div>
-                <div class="dynamic-content-right">
-                    <a href="">
-                        <div class="top">第四届罗梭江科学教育论坛闭幕  发布五项倡议</div>
-                    </a>
-                    <div class="bottom">
-                        <span>明年再会</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="dynamic-right-item">
-                <div class="dynamic-content-left">
-                    <div class="top"><span>2019</span></div>
-                    <div class="bottom"><span>7-24</span></div>
-                </div>
-                <div class="dynamic-content-right">
-                    <a href="">
-                        <div class="top">2019年第四届罗梭江科学教育论坛倡议书</div>
-                    </a>
-                    <div class="bottom">
-                        <span>《倡议书》全文</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="showMore-box">
-        <a href="news.html">
-            <div class="showMore">
-            <span>更多新闻</span>
-            <span class="showMore-icon iconfont">&#xe664;</span>
-        </div>
-        </a>
-        
-    </div>
-    
-
-    <!-- 论坛动态结束 -->
-    <!-- 论谈嘉宾开始 -->
-    <div class="guests-box-one">
-        <div class="guests-box-two">
            
-                <!-- 标题 -->
-                <div class="container" style="margin-bottom: 0;">
-                    <div class="line"></div>
-                    <div class="container-title">
-                        <div class="container-cn">论坛嘉宾</div>
-                        <div class="container-en">guests</div>
-                    </div>
-                    <div class="line-right" ></div>
-                </div>
-
-                <!-- 内容 -->
+            <!-- 内容 -->
             <div class="guests-box-three">
                 <ul class="gusets-list">
                     <li class="guests-item-box">
@@ -451,82 +400,193 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> 
     <!-- 论坛嘉宾结束 -->
 
-    <!-- 联系我们开始 -->
-    <div class="container">
-        <div class="line"></div>
-        <div class="container-title">
-            <div class="container-cn">联系我们</div>
-            <div class="container-en">Contact</div>
-        </div>
-        <div class="line-right" ></div>
-    </div>
-    <div class="contact">
-        <div class="contact-box" style="background: #f4f4f4;">
-            <div class="contact-content">
-                <div class="contact-left-title">罗梭江科学教育论坛秘书处</div>
-                <div class="contact-left-font">地址：云南省勐腊县勐仑镇中国科学院西双版纳热带植物园</div>
-                <div class="contact-left-font">电话：0691-8715392</div>
-                <div class="contact-left-font">传真：0691-8715070</div>
-                <div class="contact-left-font">邮箱：kepu@xtbg.org.cn</div>
-                <div class="contact-left-font">邮编：666303</div>
-            </div>
-        </div>
-        <div class="contact-box" style="background: #e0e0e0;">
-            <div class="contact-content">
-                <div class="contact-right-title">
-                    <div class="contact-title-top">
-                        留言板
-                    </div>
-                    <div class="contact-title-bottom">
-                        Message Board
-                    </div>
+    <!-- 图片报道开始 -->
+    <div class="topic-title">
+        <div class="topic-title-box">
+            <div class="topic-title-font">
+                <div class="topic-title-font-top">
+                    <span><strong>图片报道</strong></span>
                 </div>
-                <div class="contact-content-box">
-                    <div class="contact-content-boxleft">
-                        姓名 
-                    </div>
-                    <div class="contact-content-boxright">
-                        <input type="text" name="" id="" class="contact-content-input">
-                    </div>
-                </div>
-                <div class="contact-content-box">
-                    <div class="contact-content-boxleft">
-                        邮箱
-                    </div>
-                    <div class="contact-content-boxright">
-                        <input type="text" name="" id="" class="contact-content-input">
-                    </div>
-                </div>
-                <div class="contact-content-box">
-                    <div class="contact-content-boxleft">
-                        联系电话 
-                    </div>
-                    <div class="contact-content-boxright">
-                        <input type="text" name="" id="" class="contact-content-input">
-                    </div>
-                </div>
-                <div class="contact-content-box">
-                    <div class="contact-content-boxleft">
-                        内容 
-                    </div>
-                    <div class="contact-content-boxright">
-                        <textarea name="" id="" cols="22" rows="5" class="contact-content-textarea"></textarea>
-                    </div>
-                </div>
-
-
-                <div class="contact-content-box">
-                    <button class="contact-content-button">发送</button>
+                <div class="topic-title-font-bottom">
+                    <span>Pictures</span>
                 </div>
             </div>
         </div>
     </div>
+    <div class="picture-img">
+        <img src="imgs/wheel-2.jpg" alt="">
+        <div class="picture-title">
+            <span>7月23日，与会代表在论坛现场合影。</span>
+        </div>
+    </div>
 
+    <!-- 图片报道结束 -->
 
-    <!-- 联系我们结束 -->
+    <!-- 论坛动态开始 -->
+    <div class="topic-title">
+        <div class="topic-title-box">
+            <div class="topic-title-font">
+                <div class="topic-title-font-top">
+                    <span><strong>论坛新闻</strong></span>
+                </div>
+                <div class="topic-title-font-bottom">
+                    <span>News</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="dynamic">
+        <div class="dynamic-left">
+            
+            <div class="dynamic-left-mask"></div>
+               
+            
+            <div class="dynamic-left-box">
+                <div>  
+                    <a href="">
+                        <img src="imgs/container-1.png" alt="" class="dynamic-img">
+                    </a>
+                </div>
+                <div class="dynamic-content">
+                    <div class="dynamic-content-left">
+                        <div class="top"><span>2020</span></div>
+                        <div class="bottom"><span>03-20</span></div>
+                    </div>
+                    <div class="dynamic-content-right">
+                        <a href="">
+                            <div class="top">《第四届罗梭江科学教育论坛论文集》在线发布</div>
+                        </a>
+                        <div class="bottom">
+                            <span>论坛微信小程序同步更新发布。</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            
+            </div>            
+        </div>
+
+        <div class="dynamic-right-box">
+            <div class="dynamic-right-item">
+                <div class="dynamic-content-left">
+                    <div class="top"><span>2019</span></div>
+                    <div class="bottom"><span>07-26</span></div>
+                </div>
+                <div class="dynamic-content-right">
+                    <a href="">
+                        <div class="top">中国科学报：保护研究 不止需要科学家</div>
+                    </a>
+                    <div class="bottom">
+                        <span>“公众科学与生物多样性保护”议题中的案例</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dynamic-right-item">
+                <div class="dynamic-content-left">
+                    <div class="top"><span>2019</span></div>
+                    <div class="bottom"><span>7-25</span></div>
+                </div>
+                <div class="dynamic-content-right">
+                    <a href="">
+                        <div class="top">第四届罗梭江科学教育论坛闭幕  发布五项倡议</div>
+                    </a>
+                    <div class="bottom">
+                        <span>明年再会</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dynamic-right-item">
+                <div class="dynamic-content-left">
+                    <div class="top"><span>2019</span></div>
+                    <div class="bottom"><span>7-24</span></div>
+                </div>
+                <div class="dynamic-content-right">
+                    <a href="">
+                        <div class="top">2019年第四届罗梭江科学教育论坛倡议书</div>
+                    </a>
+                    <div class="bottom">
+                        <span>《倡议书》全文</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="showMore-box">
+        <a href="news.html">
+            <div class="showMore">
+            <span>更多新闻</span>
+            <span class="showMore-icon iconfont">&#xe664;</span>
+        </div>
+        </a>
+        
+    </div>
+    
+
+    <!-- 论坛动态结束 -->
+    <!-- 主办单位 -->
+    <div class="topic-title">
+        <div class="topic-title-box">
+            <div class="topic-title-font">
+                <div class="topic-title-font-top">
+                    <span><strong>主办单位</strong></span>
+                </div>
+                <div class="topic-title-font-bottom">
+                    <span>Sponsors</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spon">
+        <div class="spon-item">
+            <div class="spon-item-img">
+                <img src="imgs/topic/spon-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="spon-item">
+            <div class="spon-item-img">
+                <img src="imgs/topic/spon-2.jpg" alt="">
+            </div>
+        </div>
+        <div class="spon-item">
+            <div class="spon-item-img">
+                <img src="imgs/topic/spom-3.jpg" alt="">
+            </div>
+        </div>
+        <div class="spon-item">
+            <div class="spon-item-img">
+                <img src="imgs/topic/spon-4.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- 承办单位 -->
+    <div class="topic-title">
+        <div class="topic-title-box">
+            <div class="topic-title-font">
+                <div class="topic-title-font-top">
+                    <span><strong>承办单位</strong></span>
+                </div>
+                <div class="topic-title-font-bottom">
+                    <span>Organizer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spon">
+            <div class="spon-item-img">
+                <img src="imgs/topic/spon-5.png" alt="">
+            </div>
+    </div>
+
 
     <!-- 底部开始 -->
     <div class="footer">
