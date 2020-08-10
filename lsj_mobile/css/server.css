@@ -1,0 +1,84 @@
+.server-content-top{
+    width: 7.5rem;
+    height: 2.38rem;
+    
+    background: rgb(251, 251, 251);
+    margin: 0 auto;
+}
+
+.server-content-top-box{
+    width: 6.86rem;
+    height: 1.74rem;
+    border: 0.02rem solid #fff;
+    padding: 0 0.30rem;
+    padding-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    
+}
+
+.server-content-top-item{
+    width: 6.36rem;
+    height: 0.86rem;
+    padding-right: 0.3rem;
+    font-size: 0.28rem;
+    line-height: 0.86rem;
+    color: #000;
+    background: #f6f6f6;
+    border: 0.02rem solid #fff;
+    padding-left: 0.2rem;
+}
+
+.server-content{
+    width: 6.9rem;
+    height: 17.72rem;
+    margin: 0 auto;
+    color: rgb(72, 99, 80);
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+}
+
+.server-content-header{
+    width: 6.9rem;
+    height: 0.64rem;
+    color: #c5b45f;
+    font-size: 0.48rem;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+.server-content-date{
+    width: 6.9rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.server-content-info{
+    width: 6.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.server-content-title{
+    width: 1.6rem;
+    height: 0.48rem;
+    margin-bottom: 0.3rem;
+    background: rgb(52, 112, 76);
+    color: #fff;
+    line-height: 0.48rem;
+    font-size: 0.4rem;
+}
+
+.server-content-table{
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 99, 80);
+    font-family: lato, arial, tahoma, sans-serif;
+    font-size: 15px;
+    height: 2.74rem;
+    width: 6.4rem;
+    border-collapse: collapse;
+    empty-cells: show;
+    text-align: center;
+}
