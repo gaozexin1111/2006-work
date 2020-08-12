@@ -1,0 +1,79 @@
+.download-head{
+    width: 6.86rem;
+    padding: 0.4rem 0.3rem;
+    border: 0.02rem solid #fff;
+    border-bottom: 0.02rem solid rgba(226,226,226,1);
+    margin: 0 auto;
+    background: #fff;
+    color: #666;
+    font-size: 0.28rem
+}
+
+.download-head-title{
+    width: 6。58rem;
+    border: 0.04rem solid #fff;
+    background: #f4f4f4;
+    padding: 0.2rem;
+    margin: 0 auto;
+}
+
+.download-head-box{
+    width: 6.46rem;
+    padding: 0.16rem 0.2rem;
+    margin: 0 atuo;
+    display: block;
+}
+
+.download-head-all{
+    height: 0.38rem;
+    padding: 0.16rem 0.2rem;
+    border: 0.02rem solid #e2e2e2;
+    margin: 0.1rem;
+    float: left;
+}
+.download-head-item{
+    height: 0.38rem;
+    padding: 0.16rem 0.2rem;
+    border: 0.02rem solid #fff;
+    margin: 0.1rem;
+    float: left;
+}
+
+
+.download-content{
+    width: 6.9rem;
+    padding: 0.4rem 0.3rem 0 0.3rem;
+    margin: 0 auto;
+    font-size: 0.28rem;
+}
+
+.download-content-item{
+    width: 6.48rem;
+    height: 4.04rem;
+    margin: 0 auto;
+    border-bottom: 0.02rem solid rgba(226,226,226,1);
+    padding-top: 0.2rem;
+}
+
+.download-content-img{
+    width: 6.48rem;
+    margin-bottom: 0.4rem;
+}
+.download-content-img img{
+    width: 3rem;
+    height: 1.8rem;
+}
+
+.download-content-bigfont{
+    height: 0.28rem;
+    margin-bottom: 0.2rem;
+    
+}
+.download-content-smallfont{
+    padding: 0.2rem 0;
+    margin-bottom: 0.1rem;
+    font-size: 0.24rem;
+    color: #BABABA;
+}
+
+

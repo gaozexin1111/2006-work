@@ -1,0 +1,23 @@
+.about-content{
+    width: 6.9rem;
+    margin: 0 auto;
+    color: #000;
+    font-size: 0.3rem;
+    font-family:  Helvetica,Arial,Verdana,sans-serif;
+}
+
+.about-content-item{
+    width: 5.7rem;
+    margin: 0 0 0.2rem 1.2rem;
+}
+
+
+.about-content-title{
+    width: 1.6rem;
+    height: 0.48rem;
+    margin-bottom: 0.3rem;
+    background: rgb(52, 112, 76);
+    color: #fff;
+    line-height: 0.48rem;
+    font-size: 0.4rem;
+}
